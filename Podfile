@@ -1,0 +1,6 @@
+platform :ios, '5.1'
+pod 'AFNetworking',	'~> 1.3.1'
+pod 'JSONKit',		'~> 1.4.0'
+pod 'MTStatusBarOverlay', '~> 0.9.1'
+pod 'CocoaLumberjack', 	'~> 1.6'
+pod 'MBProgressHUD',	'~> 0.7'

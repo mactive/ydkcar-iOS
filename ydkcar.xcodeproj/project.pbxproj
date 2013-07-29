@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26ED637C17A6879000BB7989 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ED637B17A6879000BB7989 /* UIKit.framework */; };
+		26ED637E17A6879000BB7989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ED637D17A6879000BB7989 /* Foundation.framework */; };
+		26ED638017A6879000BB7989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ED637F17A6879000BB7989 /* CoreGraphics.framework */; };
+		26ED638217A6879000BB7989 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ED638117A6879000BB7989 /* CoreData.framework */; };
+		26ED638817A6879000BB7989 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26ED638617A6879000BB7989 /* InfoPlist.strings */; };
+		26ED638A17A6879000BB7989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ED638917A6879000BB7989 /* main.m */; };
+		26ED638E17A6879000BB7989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ED638D17A6879000BB7989 /* AppDelegate.m */; };
+		26ED639017A6879000BB7989 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ED638F17A6879000BB7989 /* Default.png */; };
+		26ED639217A6879000BB7989 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ED639117A6879000BB7989 /* Default@2x.png */; };
+		26ED639417A6879000BB7989 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ED639317A6879000BB7989 /* Default-568h@2x.png */; };
+		26ED639717A6879000BB7989 /* ydkcar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26ED639517A6879000BB7989 /* ydkcar.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26ED637817A6879000BB7989 /* ydkcar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ydkcar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26ED637B17A6879000BB7989 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26ED637D17A6879000BB7989 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26ED637F17A6879000BB7989 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26ED638117A6879000BB7989 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		26ED638517A6879000BB7989 /* ydkcar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ydkcar-Info.plist"; sourceTree = "<group>"; };
+		26ED638717A6879000BB7989 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26ED638917A6879000BB7989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26ED638B17A6879000BB7989 /* ydkcar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ydkcar-Prefix.pch"; sourceTree = "<group>"; };
+		26ED638C17A6879000BB7989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26ED638D17A6879000BB7989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26ED638F17A6879000BB7989 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		26ED639117A6879000BB7989 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		26ED639317A6879000BB7989 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		26ED639617A6879000BB7989 /* ydkcar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ydkcar.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26ED637517A6879000BB7989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ED637C17A6879000BB7989 /* UIKit.framework in Frameworks */,
+				26ED637E17A6879000BB7989 /* Foundation.framework in Frameworks */,
+				26ED638017A6879000BB7989 /* CoreGraphics.framework in Frameworks */,
+				26ED638217A6879000BB7989 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26ED636F17A6879000BB7989 = {
+			isa = PBXGroup;
+			children = (
+				26ED638317A6879000BB7989 /* ydkcar */,
+				26ED637A17A6879000BB7989 /* Frameworks */,
+				26ED637917A6879000BB7989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26ED637917A6879000BB7989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26ED637817A6879000BB7989 /* ydkcar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26ED637A17A6879000BB7989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26ED637B17A6879000BB7989 /* UIKit.framework */,
+				26ED637D17A6879000BB7989 /* Foundation.framework */,
+				26ED637F17A6879000BB7989 /* CoreGraphics.framework */,
+				26ED638117A6879000BB7989 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26ED638317A6879000BB7989 /* ydkcar */ = {
+			isa = PBXGroup;
+			children = (
+				26ED638C17A6879000BB7989 /* AppDelegate.h */,
+				26ED638D17A6879000BB7989 /* AppDelegate.m */,
+				26ED639517A6879000BB7989 /* ydkcar.xcdatamodeld */,
+				26ED638417A6879000BB7989 /* Supporting Files */,
+			);
+			path = ydkcar;
+			sourceTree = "<group>";
+		};
+		26ED638417A6879000BB7989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26ED638517A6879000BB7989 /* ydkcar-Info.plist */,
+				26ED638617A6879000BB7989 /* InfoPlist.strings */,
+				26ED638917A6879000BB7989 /* main.m */,
+				26ED638B17A6879000BB7989 /* ydkcar-Prefix.pch */,
+				26ED638F17A6879000BB7989 /* Default.png */,
+				26ED639117A6879000BB7989 /* Default@2x.png */,
+				26ED639317A6879000BB7989 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26ED637717A6879000BB7989 /* ydkcar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26ED639A17A6879000BB7989 /* Build configuration list for PBXNativeTarget "ydkcar" */;
+			buildPhases = (
+				26ED637417A6879000BB7989 /* Sources */,
+				26ED637517A6879000BB7989 /* Frameworks */,
+				26ED637617A6879000BB7989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ydkcar;
+			productName = ydkcar;
+			productReference = 26ED637817A6879000BB7989 /* ydkcar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26ED637017A6879000BB7989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = thinktube;
+			};
+			buildConfigurationList = 26ED637317A6879000BB7989 /* Build configuration list for PBXProject "ydkcar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26ED636F17A6879000BB7989;
+			productRefGroup = 26ED637917A6879000BB7989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26ED637717A6879000BB7989 /* ydkcar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26ED637617A6879000BB7989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ED638817A6879000BB7989 /* InfoPlist.strings in Resources */,
+				26ED639017A6879000BB7989 /* Default.png in Resources */,
+				26ED639217A6879000BB7989 /* Default@2x.png in Resources */,
+				26ED639417A6879000BB7989 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26ED637417A6879000BB7989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ED638A17A6879000BB7989 /* main.m in Sources */,
+				26ED638E17A6879000BB7989 /* AppDelegate.m in Sources */,
+				26ED639717A6879000BB7989 /* ydkcar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26ED638617A6879000BB7989 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26ED638717A6879000BB7989 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26ED639817A6879000BB7989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26ED639917A6879000BB7989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26ED639B17A6879000BB7989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ydkcar/ydkcar-Prefix.pch";
+				INFOPLIST_FILE = "ydkcar/ydkcar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26ED639C17A6879000BB7989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ydkcar/ydkcar-Prefix.pch";
+				INFOPLIST_FILE = "ydkcar/ydkcar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26ED637317A6879000BB7989 /* Build configuration list for PBXProject "ydkcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26ED639817A6879000BB7989 /* Debug */,
+				26ED639917A6879000BB7989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26ED639A17A6879000BB7989 /* Build configuration list for PBXNativeTarget "ydkcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26ED639B17A6879000BB7989 /* Debug */,
+				26ED639C17A6879000BB7989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26ED639517A6879000BB7989 /* ydkcar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26ED639617A6879000BB7989 /* ydkcar.xcdatamodel */,
+			);
+			currentVersion = 26ED639617A6879000BB7989 /* ydkcar.xcdatamodel */;
+			path = ydkcar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26ED637017A6879000BB7989 /* Project object */;
+}
